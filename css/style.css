@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-top {
+    background-color: rgb(231, 225, 139);
+}
+
+.root {
+
+    .color1 {
+        #dea540
+    }
+
+    ;
+
+    .color2 {
+        #edd288
+    }
+
+    ;
+
+    .color3 {
+        #2e406d
+    }
+
+    ;
+
+    .color4 {
+        #b6a158
+    }
+
+    ;
+
+    .color5 {
+        #d4ccbc
+    }
+
+    ;
+}
