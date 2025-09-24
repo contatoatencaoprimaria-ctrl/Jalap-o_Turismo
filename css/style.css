@@ -1,41 +1,89 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .nav-top {
-    background-color: rgb(231, 225, 139);
+    background-color: rgb(231, 225, 139) !important;
+    border-radius: 5px !important;
+    padding: 3px !important;
 }
+
 
 .root {
 
-    .color1 {
-        #dea540
-    }
-
-    ;
-
-    .color2 {
-        #edd288
-    }
-
-    ;
-
-    .color3 {
-        #2e406d
-    }
-
-    ;
-
-    .color4 {
-        #b6a158
-    }
-
-    ;
-
-    .color5 {
-        #d4ccbc
-    }
-
-    ;
+    --laranja: var(--laranja);
+    --azul: var(--azul);
+    --verde: var(--verde);
+    --roxo: var(--roxo);
+    --rosa: var(--rosa);
+    --amarelo: var(--amarelo);
 }
+
+.nav-item {
+
+    margin: 10px !important;
+
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(94, 144, 201) !important;
+    border-radius: 0.5em !important;
+    padding: 0.5em !important;
+
+}
+
+
+.btn-buscar {
+    background-color: rgb(94, 144, 201) !important;
+    color: rgb(237, 240, 229) !important;
+    border-radius: 0.5em !important;
+    padding: 0.5em !important;
+}
+
+    .divisao {
+        background-color: rgb(94, 144, 201) !important;
+        text-align: center !important;
+        color: var(--amarelo) !important;
+        padding: 2em !important;
+
+    }
+
+.car-img {
+    max-height: 60em !important;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    border-radius: 0.5em;
+    bottom: 20px;
+    left: 20px;
+    right: auto;
+    text-align: left;
+    max-width: 70%;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    animation: fadeInUp 1s ease-in-out;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
