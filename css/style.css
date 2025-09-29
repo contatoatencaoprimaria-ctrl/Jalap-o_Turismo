@@ -3,10 +3,21 @@
     padding: 0 !important;
 }
 
+
+/* configura cor de fundo */
 .nav-top {
     background-color: rgb(231, 225, 139) !important;
     border-radius: 5px !important;
     padding: 3px !important;
+}
+
+
+.nav-link {
+    color: rgb(255, 255, 255) !important; 
+    background-color: rgb(94, 144, 201) !important;
+    border-radius: 0.5em !important;
+    padding: 0.5em !important;
+
 }
 
 
@@ -26,13 +37,7 @@
 
 }
 
-.nav-link {
-    color: rgb(255, 255, 255) !important;
-    background-color: rgb(94, 144, 201) !important;
-    border-radius: 0.5em !important;
-    padding: 0.5em !important;
 
-}
 
 
 .btn-buscar {
